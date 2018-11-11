@@ -1,4 +1,4 @@
-# graph_learning
+# Graph_learning
 This repository contains some graph learning algorithms with the help of LSTMs and GRUs. The codes runs really fast provided a capable GPU is present. The results were quite surprising for some datasets like BlogCatalog, HomoSapiens, Youtube etc. And I hope, this hold true for almost all dense unweighted undirected graphs. The results deviate somehow for sparse graphs.
 
 # Instructions for getting node embeddings from the given iPython notebooks namely, node_emb.ipynb, node_emb_GRU.ipynb
@@ -11,3 +11,7 @@ Download the 'node_emb.ipynb' and follow the steps as mentioned.
 
 The above generated embedding can be used for various applications like classification, unsupervised predictions as well.
 The same instructions goes for GRUs as well. The file for GRU based model is named as 'node_emb_GRU'.
+ 
+ # Required environment and set-up info:
+ 1. Install Anaconda (Python2) package.
+ 2. Run 'conda install keras-gpu' (tensorflow based).
