@@ -15,3 +15,4 @@ The same instructions goes for GRUs as well. The file for GRU based model is nam
  # Required environment and set-up info:
  1. Install Anaconda (Python2) package.
  2. Run 'conda install keras-gpu' (tensorflow based).
+ CuDNN versions of the codes can only be run if a GPU is present and they run even faster than their non-CuDNN counterparts.
