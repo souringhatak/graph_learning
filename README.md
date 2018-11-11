@@ -4,6 +4,8 @@ This repository contains some graph learning algorithms with the help of LSTMs a
 # Required environment and set-up info:
  1. Install Anaconda (Python2) package.
  2. Run 'conda install keras-gpu' (tensorflow based).
+ 
+ # Note
  CuDNN versions of the codes can only be run if a GPU is present and they run even faster than their non-CuDNN counterparts.
 
 # Instructions for getting node embeddings from the given iPython notebooks namely, node_emb.ipynb, node_emb_GRU.ipynb
